@@ -10,6 +10,7 @@ import java.net.*;
 import java.util.*;
 import javax.swing.*;
 
+
 public class WhiteboardServer extends JFrame {
     private ArrayList<ColoredPoint> points = new ArrayList<>();
     private ServerSocket serverSocket;
@@ -117,6 +118,7 @@ public class WhiteboardServer extends JFrame {
             for (ColoredPoint p : points) {
                 g.setColor(p.color);
                 g.fillOval(p.x, p.y, 5, 5);
+                
             }
         }
     }

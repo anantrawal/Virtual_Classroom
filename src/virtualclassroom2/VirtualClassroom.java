@@ -80,14 +80,13 @@ public class VirtualClassroom extends JFrame {
         } else if (role.equals("teacher")) {
             new TeacherDashboard().setVisible(true);
         } else if (role.equals("student")) {
-            System.out.println("Student dashboard opening");
+            
            try{
                new StudentDashboard().setVisible(true);
            }
            catch(Exception e){
                System.out.println("Hello");
            }
-            System.out.println("Student dashboard opening");
         }
         dispose();
     }

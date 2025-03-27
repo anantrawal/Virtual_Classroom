@@ -16,7 +16,7 @@ public class WhiteboardClient extends JFrame {
     public WhiteboardClient() {
         setTitle("Student's Whiteboard");
         setSize(800, 600);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
 
         CanvasPanel canvas = new CanvasPanel();
@@ -55,6 +55,7 @@ public class WhiteboardClient extends JFrame {
             for (ColoredPoint p : points) {
                 g.setColor(p.color);
                 g.fillOval(p.x, p.y, 5, 5);
+                
             }
         }
     }

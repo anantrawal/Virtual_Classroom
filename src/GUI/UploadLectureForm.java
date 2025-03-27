@@ -14,7 +14,7 @@ class UploadLectureForm extends JFrame {
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        JButton uploadButton = new JButton("Upload Video");
+        JButton uploadButton = new JButton("Upload Lectures");
         uploadButton.addActionListener(e -> uploadVideo());
 
         JPanel panel = new JPanel();
