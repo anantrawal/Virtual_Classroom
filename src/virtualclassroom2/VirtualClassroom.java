@@ -53,7 +53,7 @@ public class VirtualClassroom extends JFrame {
         String password = new String(passwordField.getPassword());
 
         try {
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/virtual_classroom", "root", "root");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/virtual_classroom", "root", "0000");
             String query = "SELECT role FROM users WHERE username = ? AND password = ?";
             PreparedStatement stmt = conn.prepareStatement(query);
             stmt.setString(1, username);
