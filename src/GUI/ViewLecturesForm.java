@@ -25,7 +25,7 @@ class ViewLecturesForm extends JFrame {
     }
 
     private void viewVideos() {
-        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/virtual_classroom", "root", "root")) {
+        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/virtual_classroom", "root", "0000")) {
             String query = "SELECT title, content FROM videos";
             PreparedStatement stmt = conn.prepareStatement(query);
             ResultSet rs = stmt.executeQuery();

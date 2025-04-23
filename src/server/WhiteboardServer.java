@@ -118,7 +118,6 @@ public class WhiteboardServer extends JFrame {
             for (ColoredPoint p : points) {
                 g.setColor(p.color);
                 g.fillOval(p.x, p.y, 5, 5);
-                
             }
         }
     }

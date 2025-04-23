@@ -3,14 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/anant/Documents/NetBeansProjects/VirtualClassroom2/src/GUI/WhiteboardClient.java</file>
-            <file>file:/C:/Users/anant/Documents/NetBeansProjects/VirtualClassroom2/src/server/WhiteboardServer.java</file>
-            <file>file:/C:/Users/anant/Documents/NetBeansProjects/VirtualClassroom2/src/server/ClientHandler.java</file>
-            <file>file:/C:/Users/anant/Documents/NetBeansProjects/VirtualClassroom2/src/virtualclassroom2/VirtualClassroom.java</file>
-            <file>file:/C:/Users/anant/Documents/NetBeansProjects/VirtualClassroom2/src/GUI/AdminDashboard.java</file>
-            <file>file:/C:/Users/anant/Documents/NetBeansProjects/VirtualClassroom2/src/GUI/RegistrationForm.java</file>
-            <file>file:/C:/Users/anant/Documents/NetBeansProjects/VirtualClassroom2/src/GUI/StudentDashboard.java</file>
-            <file>file:/C:/Users/anant/Documents/NetBeansProjects/VirtualClassroom2/src/GUI/ViewLecturesForm.java</file>
+            <file>file:/C:/Users/shubh/OneDrive/Documents/NetBeansProjects/Virtual_Classroom1/src/virtualclassroom2/VirtualClassroom.java</file>
+            <file>file:/C:/Users/shubh/OneDrive/Documents/NetBeansProjects/Virtual_Classroom1/src/GUI/AdminDashboard.java</file>
+            <file>file:/C:/Users/shubh/OneDrive/Documents/NetBeansProjects/Virtual_Classroom1/src/GUI/TeacherDashboard.java</file>
+            <file>file:/C:/Users/shubh/OneDrive/Documents/NetBeansProjects/Virtual_Classroom1/src/GUI/StudentDashboard.java</file>
+            <file>file:/C:/Users/shubh/OneDrive/Documents/NetBeansProjects/Virtual_Classroom1/src/GUI/CreateQuizForm.java</file>
+            <file>file:/C:/Users/shubh/OneDrive/Documents/NetBeansProjects/Virtual_Classroom1/src/GUI/StudentQuizForm.java</file>
+            <file>file:/C:/Users/shubh/OneDrive/Documents/NetBeansProjects/Virtual_Classroom1/src/GUI/ViewResultsForm.java</file>
         </group>
     </open-files>
 </project-private>

@@ -49,7 +49,7 @@ class RegistrationForm extends JFrame {
         String role = (String) roleBox.getSelectedItem();
 
         try {
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/virtual_classroom", "root", "root");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/virtual_classroom", "root", "0000");
             String query = "INSERT INTO users (username, password, role) VALUES (?, ?, ?)";
             PreparedStatement stmt = conn.prepareStatement(query);
             stmt.setString(1, username);
@@ -65,4 +65,4 @@ class RegistrationForm extends JFrame {
             JOptionPane.showMessageDialog(this, "Database error: " + ex.getMessage());
         }
     }
-}
+}  
