@@ -27,7 +27,7 @@ Virtual_Classroom/
 - MySQL Server
 🔄 Cloning and Running the Project
 1. Clone the Repository:
-   git clone https://github.com/ShubhamP08/Virtual_Classroom.git
+   git clone https://github.com/anantrawal/Virtual_Classroom.git
    cd Virtual_Classroom
 
 2. Open in NetBeans:
