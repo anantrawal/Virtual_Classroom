@@ -1,4 +1,3 @@
-Virtual Classroom - README
 🎓 Virtual Classroom
 A full-featured Java-based Virtual Classroom application built with Swing GUI, supporting Admin, Teacher, and Student roles. This platform integrates quizzes, lecture uploads, whiteboard collaboration, and real-time communication via networking and multithreading.
 🚀 Features
